@@ -1,0 +1,405 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav-bar {
+  height: 60px;
+  width: 100%;
+  background-color: #091057;
+  display: flex;
+  justify-content: space-between;
+}
+.link {
+  width: 35%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.4rem;
+}
+.nav-bar img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.input {
+  width: 17%;
+}
+.input input {
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.icon {
+  margin: 10px;
+  width: 7%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 250px;
+}
+.icon a {
+  color: aliceblue;
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+.create {
+  background-color: red;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.button {
+  margin-top: 10px;
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+}
+.button button {
+  font-size: 1rem;
+  border-radius: 6px;
+  width: 35%;
+  padding: 9px;
+  height: 45px;
+}
+.all{
+  background-color: #DBD3D3;
+  height: 2000px;
+  display: flex;
+}
+.left-side{
+  width: 24%;
+}
+.personal-progress{
+  width: 95%;
+  height: 170px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.personal-heding{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+.personal-heding div{
+  font-size: small;
+  margin: 5px;
+}
+.fast{
+  display: flex;
+  justify-content: space-between;
+}
+.circle{
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.red{
+  background-color: rgb(255, 68, 0);
+}
+.title{
+  width: 70%;
+}
+.title div{
+  font-size: 0.8rem;
+  overflow: hidden;
+}
+.progress-bar{
+  height: 15px;
+  width: auto;
+  display: flex;
+
+}
+.progress{
+  background-color: rgb(0, 72, 0);
+  width: 60%;
+  text-align: center;
+  color: antiquewhite;
+}
+.progress-2{
+  background-color: #cbc6c6;
+  width: 30%;
+
+}
+.fast-button{
+  background-color: black;
+  color: wheat;
+  padding: 2px;
+  height: 15px;
+  width: 12px;
+  margin: 8px;
+}
+.blue{
+  background-color: rgb(44, 44, 167);
+}
+.blue-progress{
+  width: 50%;
+}
+.grey-progress{
+  width: 40%;
+}
+.three{
+  background-color: #ff00ee;
+}
+.three-progress{
+  width: 20%;
+}
+.three-progress-2{
+  width: 70%;
+}
+.show-all{
+ position: absolute;
+ right: 5px;
+ text-decoration: none;
+ margin: 5px;
+}
+.task{
+ 
+  width: 95%;
+  height: 330px;
+  background-color: white;
+  margin: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.task-heding{
+  display: flex;
+  justify-content: space-between;
+}
+.task h4{
+  margin: 15px;
+}
+.task-button {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.task button{
+  height: 35px;
+  background-color: rgb(30, 185, 185);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid ;
+}
+.task-button{
+  background-color: white!important;
+  
+}
+.task-sever{
+  display: flex;
+  justify-content: center;
+ 
+}
+.task-sever input{
+  border-radius: 10px;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.data{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(82, 4, 248);
+  margin: 5px;
+}
+.text{
+  margin-left: 20px;
+  padding: 3px;
+}
+.task-icon{
+  display: flex;
+ 
+}
+.task-icon i{
+  margin: 5px;
+}
+.center{
+  width: 49%;
+  height: 270px;
+  border-radius: 10px;
+  background-color: white;
+  margin: 10px;
+  margin-top: 15px;
+}
+.post{
+  display: flex;
+  background-color: white;
+}
+.post-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.main-text{
+  margin-left: 10px;
+}
+.expand-story{
+  background-color: rgb(112, 212, 112);
+}
+.coment-like{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 30px;
+  margin-top: -25px;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.coment-like input{
+  width: 70%;
+  height: 10px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.coment-like button{
+  width: 50px;
+  background-color: rgb(84, 98, 249);
+  color: wheat;
+}
+.like {
+ color:red;
+ font-size: 1.6rem;
+ margin-right: 20px;
+}
+.post2{
+  background-color: white;
+  margin-top: 35px;
+  height: 250px;
+  border-radius: 10px;
+}
+.image-text{
+  display: flex;
+}
+.right-side{
+  background-color:white;
+  height: 1000px;
+  width: 24%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.right-side h2{
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.seacrch-messages{
+  width: 100%;
+  height: 50px;
+  
+}
+.seacrch-messages input{
+  width: 83%;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+.seacrch-messages button{
+  width: 50px;
+  height: 40px;
+}
+.chat{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+.chat img{
+  width: 45px;
+  border-radius: 100%;
+  margin-top: -8px;
+  margin-left: -8px;
+
+}
+.username{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.message{
+  font-size: 1rem;
+  font-weight: 400;
+}
+.camera{
+  font-size: 2rem;
+}
+
+
+@media only screen and (max-width: 1000px) {
+  .link {
+    width: 400px;
+    visibility: visible;
+  }
+  
+  .input {
+    width: 150px;
+  }
+  .icon {
+    width: 100px;
+    margin-left: 40px;
+  }
+  .button {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 500px) {
+
+.all{
+  width: 480px;
+}
+.left-side{
+ position: relative;
+ display: none;
+}
+.center{
+  width: 448px;
+}
+.post{
+ height: 120px;
+}
+.coment-like{
+  margin-top: -25px;
+}
+.post2 {
+ 
+  height: 216px;
+ 
+}
+.nav-bar{
+width: 480px;
+}
+.link {
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  left: 80px;
+  top:50px;
+  visibility: hidden;
+}
+.link a{
+  background-color:#f0f0f0;
+  color: black;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 1.3rem;
+ 
+}
+
+
+
+}
